@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Raleway:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -30,7 +33,7 @@
             <h1>Olá, eu sou a Layla Figueiredo</h1>
             <p>Engenheira de Software apaixonada por criar soluções inovadoras e eficientes. Com experiência em desenvolvimento web, estou sempre em busca de novos desafios para aprimorar minhas habilidades e contribuir para projetos impactantes.</p>
 
-            <ul>
+            <ul class="redes-sociais">
                 <li>
                     <a href="https://www.linkedin.com/in/layla-vilas-bôas-5b3a923b3" title="Ir para o linkedin" target="_blank">
                         <i class="fab fa-linkedin-in"></i>
@@ -56,12 +59,15 @@
                 </li>
             </ul>
         </div>
+
         <div class="container-foto">
             <div class="foto-sombra-interna">
                 <img src="./src/imagens/foto-perfil.png" alt="foto do portfolio da Layla">
             </div>
+
         </div>
     </section>
+    
     <section class="projetos" id="projetos">Meus Projetos</section>
     <h2 class="container-projetos">Projetos em Destaque</h2>
     <div class="container-projetos">
@@ -71,19 +77,21 @@
             <h3>Projeto X-Men</h3>
             <div class="informacoes-projeto">
                 <p>Projeto feito usando HTML, CSS e JavaScript, onde o usuário pode selecionar um personagem dos X-men. </p>
-                <p>Ver no GitHub pages </p>
+                <p>🔗Ver no GitHub pages </p>
             </div>
 
                 <div class="projeto ativo">
             <a href="https://github.com/Laly-L/Website-Trote" target="_blank"></a>
-            <img src="" alt="projeto Trote Solidário">
+            <img src="src/imagens/projeto-trote.png" alt="projeto Trote Solidário">
             <h3>Projeto Trote Solidário</h3>
             <div class="informacoes-projeto">
                 <p>Projeto feito usando HTML, CSS e JavaScript, o website foi criado para um evento de doação e solidariedade de membros universitários. </p>
-                <p>Ver no GitHub pages </p>
+                <p>🔗Ver no GitHub pages </p>
             </div>
         </div>
-    </div>
 
+        <button class="btn-mostrar-projetos">Mostrar Mais Projetos</button>
+    <script src="./src/js/index.js"></script>
+</section>
 </body>
 </html>

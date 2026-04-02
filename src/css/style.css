@@ -1,0 +1,110 @@
+html{
+    color: white;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+	margin: 0 auto;
+	max-width: 1120px;
+	background: linear-gradient(150deg, #000000, #9e00ff);
+	background-size: 120% 120%;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 15px;
+    background-color: blue;
+}
+
+.cabecalho .logo{
+    width: 65px;
+    height: 65px;
+    background-color: orange;
+    border-radius: 50%;
+    border: 2px solid white;
+    text-align: center;
+    line-height: 55px;
+    font-family: "raleway", sans-serif;
+    transition: 0.2s;
+}
+
+.cabecalho a:hover .logo{
+    color: #9443d8;
+    border: 2px solid #9443d8;
+}
+
+.cabecalho .menu ul{
+    background-color: red;
+}
+
+.cabecalho .menu li a{
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    transition: 0.2s;
+}
+
+.cabecalho .menu li a:hover{
+    background-color: #e60c0c;
+    color: white;
+    border-radius: 50px;
+
+}
+
+.home{
+    display: flex;
+    background-color: green;
+    min-height: calc(100vh - 125px);
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.home .informacoes{
+    background-color: black;
+    gap: 15px;
+    letter-spacing: 2px;
+    padding: 0 15px;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.home .informacoes h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-family: "raleway", sans-serif;
+}
+
+.home .informacoes p{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: "raleway", sans-serif;
+}
+
+.home .redes-socias{
+    display: flex;
+    gap: 20px;
+    background-color: rgb(255, 166, 0);
+}
+
+.home .redes-socias a i{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 50%;
+    border: 1px solid white;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.home .redes-socias a i:hover{
+    background-color: #0a0a0a;
+    color: #9443d8;
+    border: 1px solid #9443d8;
+}
